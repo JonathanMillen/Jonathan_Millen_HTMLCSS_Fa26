@@ -3,13 +3,18 @@ h1 {
 }
 :link {
     color: green;
+   
 }
 :visited {
     color: purple;
+
+    
 }
 :hover {
-    color: orange;  
+    color: orange;
+    text-decoration-line: none;   
 }
 :focus {
     color: red;
+    background-color: yellow;
 }
