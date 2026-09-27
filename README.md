@@ -25,3 +25,8 @@ Created an index.html document and created list structures then linked a styles.
 
 Week 4: Links & Navigation
 Created multiple .html documents and linked them together  
+
+## Week 5
+
+Week 5: Introduction to CSS & Inline Style
+Created a webpage featuring a recipe we like using only inline styling.  
