@@ -1,0 +1,18 @@
+:root {
+    --BG-color: #7f7f7f;
+    --text-color: #1a1a1a;
+    --primary-color: #d60d10;
+    --secondary-color: #a80b0e;
+    --border-color: #e2c5c6;
+}   
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --BG-color: #121212;
+        --text-color: #f2f2f2;
+        --primary-color: #d60d10;
+        --secondary-color: #8f0a0c;
+        --border-color: #3a2021;
+    }
+}
+
