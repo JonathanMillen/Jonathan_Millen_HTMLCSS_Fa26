@@ -32,5 +32,5 @@ Week 5: Introduction to CSS & Inline Style
 Created a webpage featuring a recipe we like using only inline styling.  
 
 ## Week 6
-Week 5: Refactoring to an External Stylesheet with Dark Mode 
+Week 6: Refactoring to an External Stylesheet with Dark Mode 
 Refactored index.html, added an external CSS stylesheet, and implemented dark mode.
