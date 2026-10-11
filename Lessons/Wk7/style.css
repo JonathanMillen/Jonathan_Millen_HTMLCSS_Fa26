@@ -1,0 +1,142 @@
+* {
+    background-color: #d0bdf4;
+    font-family: Arial, sans-serif;
+}
+.setting {
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+root {
+    --active-color: #a0d2eb;
+    --inactive-color:#e5eaf5;
+    --return-color: #d0bdf4;
+    --privacy-policy-color: #8458b3;
+    --secondary-color: #494d5f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.active {
+    display: inline-block;
+    color: #e5eaf5;
+    background-color: #8458b3;
+    border-radius: 8px;
+    padding: 5px 5px;
+    margin-left: 5px;
+
+}
+
+.active:hover {   
+    background-color: #4a1781;
+   
+}
+
+.active:focus {
+border-color: rgb(240, 238, 125);
+    background-color: rgb(240, 238, 150);
+    outline: none;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
+
+
+.inactive {
+    display: inline-block;
+    color: #e5eaf5;
+    background-color: #8458b3;
+    border-radius: 8px;
+    padding: 5px 5px;
+    margin-left: 5px;
+
+}
+
+.inactive:hover {   
+    background-color: #4a1781;
+   
+}
+
+.inactive:focus {
+border-color: rgb(240, 238, 125);
+    background-color: rgb(240, 238, 150);
+    outline: none;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
+
+
+.return {
+    display: inline-block;
+    color: #e5eaf5;
+    background-color: #8458b3;
+    border-radius: 8px;
+    padding: 5px 5px;
+    margin-left: 5px;
+
+}
+
+.return:hover {   
+    background-color: #4a1781;
+   
+}
+
+.return:focus {
+border-color: rgb(240, 238, 125);
+    background-color: rgb(240, 238, 150);
+    outline: none;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
+
+
+.privacypolicy {
+    display: inline-block;
+    color: #e5eaf5;
+    background-color: #8458b3;
+    border-radius: 8px;
+    padding: 5px 5px;
+    margin-left: 5px;
+
+}
+
+.privacypolicy:hover {   
+    background-color: #4a1781;
+   
+}
+
+.privacypolicy:focus {
+border-color: rgb(240, 238, 125);
+    background-color: rgb(240, 238, 150);
+    outline: none;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 10px;
+    }
+    .header {
+        font-size: 18px;
+    }
+}
