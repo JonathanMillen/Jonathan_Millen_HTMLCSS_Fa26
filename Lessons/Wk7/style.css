@@ -70,6 +70,28 @@ a.privacypolicy[target="_blank"]::after {
    
 }
 
+#settings-panel-privacy {
+    max-width: 700px;
+    margin: 40px;
+    padding: 30px;
+}   
+   
+
+#settings-panel-privacy h1 {
+    color: #4a1781;
+    border-bottom: 2px solid #8458b3;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#settings-panel-privacy h2 {
+    color: #4a1781;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+
 @media screen and (max-width: 600px) {
     #settings-panel {
         font-size: 14px;
@@ -82,5 +104,18 @@ a.privacypolicy[target="_blank"]::after {
 
     .setting a {
         width: 90px;
+    }
+    #settings-panel-privacy {
+        margin: 15px;
+        padding: 20px;
+        font-size: 85%;
+    }
+
+    #settings-panel-privacy h1 {
+        font-size: 24px;
+    }
+
+    #settings-panel-privacy h2 {
+        font-size: 19px;
     }
 }
