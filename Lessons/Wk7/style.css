@@ -5,7 +5,6 @@
     background-color: #d0bdf4;
 }
 
-
 #settings-panel {
     
     color: #494d5f;
@@ -64,7 +63,6 @@
     box-shadow: 10px 10px 10px #719ECE;
 }
 
-
 a.privacypolicy[target="_blank"]::after {
     content: ' ↗';
    
@@ -76,7 +74,6 @@ a.privacypolicy[target="_blank"]::after {
     padding: 30px;
 }   
    
-
 #settings-panel-privacy h1 {
     color: #4a1781;
     border-bottom: 2px solid #8458b3;
@@ -89,8 +86,6 @@ a.privacypolicy[target="_blank"]::after {
     margin-top: 25px;
     margin-bottom: 10px;
 }
-
-
 
 @media screen and (max-width: 600px) {
     #settings-panel {
