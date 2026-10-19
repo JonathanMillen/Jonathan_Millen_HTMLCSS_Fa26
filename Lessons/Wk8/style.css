@@ -1,0 +1,68 @@
+*, *::before, *::after {
+
+  box-sizing: border-box;
+
+}
+
+
+
+#container {
+  border: 2px solid red ;
+  width:75%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px 20px 20px 20px;
+}
+
+.product-card {
+  border: .15rem solid rgb(30, 1, 95);
+  background-color: rgb(196, 235, 245);
+  width:200px;
+  height:auto;
+  border-radius: 15px 50px;
+  padding: 25px;
+  margin:10px 20px 10px 5px;
+  display: inline-block;
+}
+
+.product-card:hover {
+  border: .25rem solid rgb(255, 115, 0);
+  padding: 50px;
+  box-shadow: .5rem .5rem .5rem rgba(119, 89, 6, 0.747);
+  position: relative;
+  bottom: .3rem;
+  right: .3rem;
+
+}
+
+.productImage {
+ width: 60%;
+ height: 65%;
+ border-radius: 10px;
+ height: auto;
+ float: left;
+ box-shadow: .5rem .3rem rgba(75, 70, 70, .5);
+}
+
+.productDescription {
+ font-size: 1rem;
+ margin: 1rem;
+}
+
+@media screen and (max-width: 750px){
+  .product-card{
+    width: 150px;
+    height: 30%;
+  }
+  .productImage{
+    width: 50%;
+  }
+  .productName{
+    font-size: 1rem;
+  }
+  .productDescription{
+    font-size: .75rem;
+  }
+}
+
