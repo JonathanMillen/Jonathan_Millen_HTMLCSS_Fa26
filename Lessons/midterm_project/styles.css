@@ -5,10 +5,118 @@
 }
 
 :root {
-    --BG-color: #f5f5f5;
+    --BG-color: #092f68;
     --text-color: #6a6a6a;
     --secondary-text-color: #231d7a;
     --primary-color: #e0d9c5;
     --secondary-color: #c4bba2;
     --border-color: #afafaf;
+    --primary-font-family: 'Courier New', Courier, monospace;
+    --secondary-font-family: Arial, Helvetica, sans-serif;
 } 
+
+.header {
+  background-color: var(--BG-color);
+  font-family: var(--secondary-font-family);
+
+
+}
+
+body {
+  background-color: #0f6ca1;
+}
+
+#headerContainer {
+  font-family: var(--primary-font-family);
+
+}
+
+.headerName {
+  color: #afafaf;
+
+}
+
+#linkContainer {
+  border: 2px red solid;
+  
+
+}
+
+.links{
+  color: #6a6a6a;
+
+}
+
+#image {
+
+}
+
+#mainGroup {
+  
+} 
+  
+.main {
+  border: 2px green ;
+}
+
+  .mainH1 {
+    color: #e0d9c5;
+  }
+
+.mainContent {
+  border: .15rem solid red ;
+  padding: 2px;
+}
+
+dt {
+  color: #6a6a6a;
+}
+
+dd {
+  color: #c4bba2;
+}
+
+.secondList {
+  padding: 5px;
+  border: 3px green;
+}
+
+p {
+  padding: 1px;
+  border: .1rem blue;
+}
+
+li {
+  color: red;
+}
+
+
+#projectGroup {
+  border: 2px solid red ;
+  width:75%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px 20px 20px 20px;
+}
+
+.projectContainer {
+   border: .15rem solid rgb(30, 1, 95);
+  background-color: rgb(196, 235, 245);
+  width:400px;
+  height:auto;
+  border-radius: 10px 10px;
+  padding: 25px;
+  margin:10px 20px 10px 5px;
+  display: inline-block;
+}
+
+.projectContainer:hover {
+  border: .25rem solid rgb(255, 115, 0);
+  padding: 50px;
+  box-shadow: .5rem .5rem .5rem rgba(119, 89, 6, 0.747);
+  position: relative;
+  bottom: .3rem;
+  right: .3rem;
+
+}
