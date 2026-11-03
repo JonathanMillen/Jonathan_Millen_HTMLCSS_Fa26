@@ -1,0 +1,258 @@
+*, *::before, *::after {
+
+  box-sizing: border-box;
+
+}
+
+:root {
+    --BG-color: #092f68;
+    --secondary-BG-color: #012151;
+    --text-color: #af9595;
+    --secondary-text-color: #6662b1;
+    --primary-color: #e0d9c5;
+    --secondary-color: #c4bba2;
+    --border-color: #afafaf;
+    --secondary-border-color: #64648a;
+    --primary-font-family: 'Courier New', Courier, monospace;
+    --secondary-font-family: Arial, Helvetica, sans-serif;
+} 
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --BG-color: #1c1c1e;
+    --secondary-BG-color: #515155;
+    --text-color: #f2f2f7;
+    --secondary-text-color: #7b7bc0;
+    --primary-color: #4c4c52;
+    --secondary-color: #3e3e4b;
+    --border-color: #48484a;
+    --secondary-border-color: #64648a;
+    --primary-font-family: 'Courier New', Courier, monospace;
+    --secondary-font-family: Arial, Helvetica, sans-serif;
+
+  }
+}
+
+.header {
+  background-color: var(--secondary-BG-color);
+  font-family: var(--secondary-font-family);
+  border: 300px
+}
+
+body {
+  background-color: var(--BG-color);
+}
+
+#headerContainer {
+  font-family: var(--primary-font-family);
+
+}
+
+.headerName {
+  color: var(--text-color);
+
+}
+
+.links{
+  border: .15rem solid var(--border-color);
+  background-color: var(--secondary-BG-color);
+  color: var(--text-color);
+  width:auto;
+  height:auto;
+  border-radius: 10px 10px;
+  padding: 10px;
+  margin:5px 5px 5px 5px;
+  display: inline-block;
+
+}
+
+.links:hover {
+  border: .25rem solid var(--secondary-border-color);
+  padding: 5px;
+  box-shadow: .3rem .3rem .3rem rgba(119, 89, 6, 0.747);
+  position: relative;
+  bottom: .2rem;
+  right: .2rem;
+
+}
+
+.links:focus {
+  border: .25rem solid var(--secondary-border-color);
+  padding: 5px;
+  box-shadow: .3rem .3rem .3rem rgba(236, 88, 3, 0.747);
+  position: relative;
+  bottom: .2rem;
+  right: .2rem;
+
+}
+
+.link {
+  border: .1rem solid var(--border-color);
+  background-color: var(--secondary-BG-color);
+  color: var(--secondary-text-color);
+  width:auto;
+  height:auto;
+  border-radius: 2px 2px;
+  padding: 2px;
+  margin:1px 1px 1px 1px;
+  display: inline-block;
+}
+
+.link:hover {
+  border: .25rem solid var(--secondary-border-color);
+  padding: 5px;
+  box-shadow: .3rem .3rem .3rem rgba(197, 76, 61, 0.747);
+  position: relative;
+  bottom: .2rem;
+  right: .2rem;
+}
+
+.image {
+  
+  margin: 20px 20px 20px 40px;
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+ 
+  
+  
+}
+
+#mainGroup {
+  padding: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  
+} 
+  
+.main {
+  padding: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  border: 2px solid var(--border-color);
+}
+
+
+  .mainH1 {
+    color: var(--text-color);
+    text-shadow: 2px 2px rgba(233, 231, 226, 0.2) ;
+  }
+
+.mainContent {
+  padding: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+ 
+}
+.dtList {
+  padding: 5px;
+  margin: auto;
+  color: var(--secondary-text-color);
+  font-size: 20px;
+}
+
+.dtContent {
+  padding: 5px;
+  color:var(--text-color);
+  font-size: 20px;
+}
+
+
+.list {
+  color:var(--secondary-text-color);
+  padding: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  font-size: 20px;
+}
+
+
+#projectGroup {
+  border: var(--secondary-BG-color) ;
+  width:75%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px 20px 20px 20px;
+}
+
+.projectContainer {
+  border: .15rem solid var(--border-color);
+  background-color: var(--secondary-BG-color);
+  width:400px;
+  height:auto;
+  border-radius: 10px 10px;
+  padding: 25px;
+  margin:10px 20px 10px 5px;
+  display: inline-block;
+}
+
+.projectContainer:hover {
+  border: .25rem solid var(--secondary-border-color);
+  padding: 50px;
+  box-shadow: .5rem .5rem .5rem var(--border-color);
+  position: relative;
+  bottom: .3rem;
+  right: .3rem;
+
+}
+
+
+
+
+
+.footer {
+  color: var(--text-color);
+  margin: 20px 5px;
+  padding: 15px;
+  border: 2px var(--border-color);
+  background-size: 20%;
+  background-image: url(/practice/image/moroccan-flower-dark.webp);
+  background-repeat: repeat;
+
+}
+
+@media screen and (max-width: 650px) {
+
+.dtList {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.dtContent {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.projectContainer {
+  width: 50%;
+  font-size: 15px;
+}
+
+.links{
+ 
+  width:auto;
+  height:auto;
+  border-radius: 5px 5px;
+  padding: 5px;
+  margin:2px 2px 2px 2px;
+  display: inline-block;
+  font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
