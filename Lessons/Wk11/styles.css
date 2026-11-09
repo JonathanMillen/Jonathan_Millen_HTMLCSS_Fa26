@@ -1,5 +1,5 @@
 .table-container {
-    width: 700px; 
+    width: 90%; 
     overflow-x: auto;
     margin: 1rem     auto;
     box-shadow: .3rem .3rem .3rem rgba(87, 162, 231, 0.7);
@@ -13,9 +13,6 @@ caption {
     background-color: #8dc2f0;
 }
 
-
-
-
 .header-cell
  {
     background-color: #3c9bf3;
@@ -25,17 +22,13 @@ th {
     background-color: #9d7aca;
     color: white;
     padding: 5px;
-    text-align: left;
-    
-    
+    text-align: left;   
 }
 
 table {
     border: .15rem solid blue;
-    width: 90%;
+    width: 100%;
     margin: 5px auto;
-
-
 }
 
 td {
@@ -62,10 +55,9 @@ tfoot {
 }
 
 
-
 @media (max-width: 600px) {
     table {
-        width: 200px;
+        width: 100%;
         height: auto;
          margin: 1rem ;
     }
@@ -79,5 +71,10 @@ tfoot {
     height: 1.5rem;
     }
     
+    th {
+        font-size: 0.8em;
+        padding: 3px;
+    }
+
 }
 
