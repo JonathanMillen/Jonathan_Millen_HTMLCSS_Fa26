@@ -52,21 +52,38 @@ td {
     border: 1px solid black;
     padding: 8px;
 }
+td:hover {
+    font-weight: bold;
+}
+
 tbody{
-    border: 1px solid green;
     text-align: right;
     padding: 8px;
 }
+
+
 
 tfoot {
     background-color: #228f50;
     font-weight: bold;
 }
 
+tfoot td:hover {
+    background-color: #38ad69af;
+    font-size: 1.05rem;
+}
+
 tbody tr:nth-child(even) {
     background-color: #1e10d8b2;    
+}
+tbody tr:nth-child(even):hover {
+    background-color: #1d10d8a1;    
 }
 
 tbody tr:nth-child(odd) {
     background-color: #adaae0b2;
-}        
+}
+
+tbody tr:nth-child(odd):hover {
+    background-color: #6660e04b;
+}
