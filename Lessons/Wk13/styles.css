@@ -9,9 +9,14 @@ nav ul {
 
 .content-wrapper {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
+   
+   
+    gap: 10px;
     padding: 20px;
+}
+.sidebar {
+    background-color: #f50b0b;
+    height: 200px;
 }
 
 .card-container {
@@ -23,12 +28,19 @@ nav ul {
     justify-content: space-evenly;
 }
 
+.card-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
 .card {
-    padding-top: 5px;
+   
     background-color: #4762da;
     border-radius: 10px;
     width: 200px;
-    text-align: center;
+    flex: 1 1 300px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 
@@ -42,22 +54,29 @@ nav ul {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     background-color: #12236b;
-    border-radius: 10px;
+    border-radius: 10px ;
     color: #fff;
+    justify-content: space-between;
     
 }
 
 
 .special-card {
+   
     background-color: #4762da;
-    border-radius: 5px;
-    padding: 0px;
+    border-radius: 10px;
     width: 200px;
-    text-align: center;
+    flex: 1 1 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.special-card:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
 .card-button {
+    width: 100%;
     background-color: aquamarine;
     border-radius: 10px;
 
