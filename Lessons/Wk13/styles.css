@@ -1,27 +1,60 @@
+
+:root {
+    --BG-color: #e3e7d3;
+    --secondary-BG-color: #bdc2bf;
+    --primary-color: #989c94;
+    --secondary-color: #25291c;
+     --border-color: #e6e49f;
+}
+
+
+
+body {
+    background-color:var(--BG-color)    ;
+}
+
+
 .dashboard header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--primary-color   ) ;
+    border: 2px var(--border-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 20px 0px 20px;
+   
 }
 nav ul {
+    display: flex;
     list-style: none;
+    margin: .3rem;
+    justify-content: center;
+}
+li {
+    
+    background-color: var(--secondary-BG-color);
+    border-radius: 10px;
+    margin: .5rem;
+    padding: .5rem;
 }
 
 .content-wrapper {
     display: flex;
-   
-   
     gap: 10px;
     padding: 20px;
 }
 .sidebar {
-    background-color: #f50b0b;
-    height: 200px;
+    display: flex;
+    background-color: var(--secondary-BG-color);
+    border-radius: 5px;
+    width: 10%;
 }
 
 .card-container {
     padding: 10px;
-    border: 2px solid #f50b0b;
+    border: 2px solid var(--secondary-BG-color);
+    border-radius: 6px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -30,14 +63,14 @@ nav ul {
 
 .card-img {
     width: 100%;
-    height: 200px;
+    height:150px;
     border-radius: 10px 10px 0px 0px;
 
 }
 
 .card {
    
-    background-color: #4762da;
+    background-color: var(--secondary-color);
     border-radius: 10px;
     width: 200px;
     flex: 1 1 300px;
@@ -51,15 +84,15 @@ nav ul {
 }
 
 .card-content {
-    margin-top: 10px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    background-color: #12236b;
-    border-radius: 10px ;
-    color: #fff;
-    justify-content: space-between;
+    background-color: var(--primary-color);
     
+    color: var(--secondary-color);
+    justify-content: space-between;
+    border-radius: 0px 0px 10px 10px;
 }
 
 
@@ -77,7 +110,7 @@ nav ul {
 }
 .card-button {
     width: 100%;
-    background-color: aquamarine;
+    background-color: var(--border-color);
     border-radius: 10px;
 
 }
